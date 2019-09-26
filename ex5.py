@@ -1,12 +1,9 @@
-a = int(input("chislo a = "))
-b = int(input("chislo b = "))
-c = int(input("chislo c = "))
-
-d = [a, b, c]
-
-if d.count(a) == len(d):
+d = [int(input("chislo = ")), int(input("chislo = ")), int(input("chislo = "))]
+if d.count(d[0]) == len(d):
     print(3)
-elif d.count(a) == 2 or d.count(b) == 2:
+elif d.count(d[0]) == 2 or d.count(d[2]) == 2:
         print(2)
 else:
     print(0)
+
+

@@ -1,7 +1,14 @@
-a = int(input("число a = "))
-b = int(input("число b = "))
-c = int(input("число c = "))
+b = [int(input("chislo = ")), int(input("chislo = ")), int(input("chislo = "))]
+b.sort()
+print(b)
 
-d = [a, b, c]
-d.sort()
+print("second")
+d = [int(input("chislo = ")), int(input("chislo = ")), int(input("chislo = "))]
+if d[0] > d[1]:
+    d[0], d[1] = d[1], d[0]
+if d[1] > d[2]:
+    d[1], d[2] = d[2], d[1]
+if d[0] > d[1]:
+    d[0], d[1] = d[1], d[0]
+
 print(d)
