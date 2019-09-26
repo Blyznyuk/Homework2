@@ -14,3 +14,5 @@ print("100 and homework", ' '*((100-len(c))//2), c, ' '*((100-len(c))//2))
 
 d = input('random string:' )
 print("pervaya bukva", d.title())
+
+

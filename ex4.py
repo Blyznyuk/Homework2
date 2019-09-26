@@ -4,4 +4,8 @@ c = int(input("storona c = "))
 
 if a < b+c and b < a+c and c < a+b:
     print("YES")
-else: print("NO")
+else:
+    print("NO")
+
+
+

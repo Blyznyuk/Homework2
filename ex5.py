@@ -1,3 +1,4 @@
+print("Вводим 3 числа")
 d = [int(input("chislo = ")), int(input("chislo = ")), int(input("chislo = "))]
 if d.count(d[0]) == len(d):
     print(3)
